@@ -3,9 +3,10 @@
 
 /**
  * add:adds two integers and returns the result.
- * @a: adds two integers
- * @b: adds tow integers
- * Return: a+b
+ * @a: a to add
+ * @b: b to add
+ *
+ * Return: sum of a and b
  */
 int add(int a, int b)
 {
