@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * prints the last digit of a number.
+ * print_last_digit : prints the last digit of a number.
  *
  * @n: integer to test
- * Return:n%10
+ * Return: int i
  */
 int print_last_digit(int n)
 {
