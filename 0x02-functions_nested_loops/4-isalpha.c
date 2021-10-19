@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _islalpha- checks for lowercase and uppercase character.
+ * _isalpha- checks for lowercase and uppercase character.
  *
  * @c: character to test
  * Return: 1 if lowercase or uppercase 0 otherwise
