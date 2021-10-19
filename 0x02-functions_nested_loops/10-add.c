@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * int_add:adds two integers and returns the result.
- * @a,b: adds two integers
- *
+ * add:adds two integers and returns the result.
+ * @a: adds two integers
+ * @b: adds tow integers
  * Return: a+b
  */
 int add(int a, int b)
