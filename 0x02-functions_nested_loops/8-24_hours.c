@@ -3,9 +3,9 @@
 
 /**
  * jack_bauer -prints every minute of the day of Jack Bauer
- * @a:int 
+ * @a: int entry
  *
- * Return: no
+ * Return: none
  */
 void jack_bauer(void)
 
