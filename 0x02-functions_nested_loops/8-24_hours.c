@@ -3,7 +3,6 @@
 
 /**
  * jack_bauer -prints every minute of the day of Jack Bauer
- * @a: int entry
  *
  * Return: none
  */
