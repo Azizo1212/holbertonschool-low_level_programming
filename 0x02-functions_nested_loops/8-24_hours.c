@@ -3,7 +3,7 @@
 
 /**
  * jack_bauer -prints every minute of the day of Jack Bauer
- * @n: The number to find the last digit of
+ * @a:int 
  *
  * Return: no
  */
