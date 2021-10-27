@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -c .c && ar rc liball.a ./.o
-
+gcc -wall -c *.c
+ar -cvp liball.a *.o
