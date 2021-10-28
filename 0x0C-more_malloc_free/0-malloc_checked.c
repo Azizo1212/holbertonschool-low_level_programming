@@ -3,16 +3,17 @@
 #include <stdlib.h>
 
 /**
- * main - check the code
+ * *malloc_checked -  a function that allocates memory using malloc.
+ * @b: the space to allocate
  *
- * Return: Always 0.
+ * Return: a pointer to the allocated memory.
  */
 void *malloc_checked(unsigned int b)
 {
-    int **c;
+	int **c;
 
-    c = malloc(b);
+	c = malloc(b);
 	if (c == NULL)
 		exit(98);
-    return (c);
+	return (c);
 }
