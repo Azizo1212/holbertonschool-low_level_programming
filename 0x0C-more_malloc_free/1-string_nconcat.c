@@ -24,12 +24,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		z++;
 	if (n < z)
 	{
-		c = malloc(sizeof(char) * (a + n));
+		c = malloc(sizeof(char) * (a + n + 1));
 		e = a + n;
 	}
 	else
 	{
-		c = malloc(sizeof(char) * (a + z));
+		c = malloc(sizeof(char) * (a + z + 1));
 		e = a + z;
 	}
 	if (c == NULL)
@@ -42,5 +42,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		c[a] = s2[z];
 		z++;
 	}
+	c[a + 1] = '\0';
 	return (c);
 }
