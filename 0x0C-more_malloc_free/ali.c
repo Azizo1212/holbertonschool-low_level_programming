@@ -35,7 +35,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 printf("1111111111111\n%d\n", i);
 	while (n < len2 && i < (len1 + n))
 		s[i++] = s2[j++];
-
+printf("-------%d----------", i);
 	while (n >= len2 && i < (len1 + len2))
 		s[i++] = s2[j++];
 printf("22\n%d\n", i);
