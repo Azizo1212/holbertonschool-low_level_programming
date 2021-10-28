@@ -22,7 +22,7 @@ int i, k = 0, j = 0, len = 0;
 		j++;
 		len++;
 	}
-	s = malloc(sizeof(char) * (len +1));
+	s = malloc(sizeof(char) * (len + 1));
 	if (s == NULL)
 		return (NULL);
 	for (i = 0; s1[i]; i++)
