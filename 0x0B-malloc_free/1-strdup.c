@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
  * _strdup - Returns a pointer to a newly-allocated space in memory
- *           containing a copy of the string given as parameter.
+ * containing a copy of the string given as parameter.
  * @str:string.
  * Return: chs or null
  */
@@ -9,6 +10,7 @@ char *_strdup(char *str)
 {
 	char *chs;
 	int i, len = 0;
+
 	if (str == NULL)
 		return (NULL);
 	for (i = 0; str[i]; i++)
