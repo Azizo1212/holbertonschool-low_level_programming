@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * _main -  prints its name, followed by a new line.
+ * main -  prints its name, followed by a new line.
  * @argc: length of table
- * @argv : table of argument
+ * @argv: table of argument
  *
  * Return: 0
  */
