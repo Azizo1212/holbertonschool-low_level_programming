@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main -  prints all arguments it receives.
  * @argc: length of table
@@ -8,9 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	printf("%s\n", argv[i]);
+	if (argc != 3)
+	{
+		printf("Error");
+		return (1);
+	}
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
