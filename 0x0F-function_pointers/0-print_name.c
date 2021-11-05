@@ -7,8 +7,9 @@
  * Return: Nothing.
  */
 
-void array_iterator(int *array, size_t size, void (*action)(int))
+void print_name(char *name, void (*f)(char *))
 {
-	for (size_t i = 0, i < size , i++)
-		action(array[i]);
+	if(!f || !name)
+		return;
+	(*f)(name);
 }
