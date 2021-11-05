@@ -3,7 +3,7 @@
 /**
  * print_name - prints a name
  * @name: name of the person
- *
+ * @f: pointer
  * Return: Nothing.
  */
 
