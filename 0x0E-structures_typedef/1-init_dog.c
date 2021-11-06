@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "dog.h"
 /**
- * main - check the code
+ * init_dog - that initialize a variable of type struct dog
  *
- * Return: Always 0.
+ * Return: none
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
