@@ -2,7 +2,7 @@
 #include "dog.h"
 /**
  * init_dog - that initialize a variable of type struct dog
- *
+ * @d: type of struct dog
  * Return: none
  */
 
