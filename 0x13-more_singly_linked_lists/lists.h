@@ -6,8 +6,10 @@
 
 
 /**
- * main - check the code
+ * struct listint_s - singly linked list
+ * @n: integer
  *
+ * @next: points
  * Return: Always 0.
  */
 
